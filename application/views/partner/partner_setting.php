@@ -13,7 +13,7 @@
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-            <form class="form-horizontal dash_pro_home"  id="dashProfile" method="post" action="<?php echo site_url('wizcationpartner/submit_partner_profile') ?>" role="form">
+            <form class="form-horizontal dash_pro_home"  id="dashProfile" method="post" action="<?php echo site_url('backend/submit_partner_profile') ?>" role="form">
             <div class="form-group" >
                 <label class="control-label">First Name</label>
                 <div class="control_inputs">

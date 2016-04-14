@@ -11,7 +11,7 @@
                      </div>
                  </div>
             </div>
-        <form method="post" action="<?php echo site_url('wizcationpartner/submit_information');?>" role="form" id="infoProfile"  enctype="multipart/form-data">
+        <form method="post" action="<?php echo site_url('backend/submit_information');?>" role="form" id="infoProfile"  enctype="multipart/form-data">
         <input type="hidden" class="form-control" id="property_code" name="property_code" value="<?php echo $header_user[0]['property_code']; ?>">
         <input type="hidden" class="form-control" id="ref_code" name="ref_code" value="<?php echo generateRandomString(10);?>">
         

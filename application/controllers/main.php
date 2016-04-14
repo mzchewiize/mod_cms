@@ -105,7 +105,7 @@ class Main extends CI_Controller {
         	}
         }
 
-        $data['info'] = "Wizcation Portal management : ADMIN";
+        $data['info'] = "Content Mangement System : ADMIN";
 		$this->load->view('template/header', $header);
 		$this->load->view('login' , $data);
 		$this->load->view('template/footer');

@@ -48,8 +48,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
-                <a href="#" class="navbar-brand"><img src="<?php echo base_url(); ?>webroot/img/logo.png"></a>
+            <?php if(!empty($header_user[0])) { ?>                
+            <a href="#" class="navbar-brand"><img src="<?php echo base_url(); ?>webroot/img/logo.png"></a>
+          <?php } ?>
             </div>
             <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
           <?php if($header_user[0]['user_group']==1) { ?>

@@ -11,7 +11,7 @@
                      </div>
                  </div>
             </div>
-        <form method="post" action="<?php echo site_url('wizcationpartner/submit_update_content');?>" role="form" id="infoProfile"  enctype="multipart/form-data">
+        <form method="post" action="<?php echo site_url('backend/submit_update_content');?>" role="form" id="infoProfile"  enctype="multipart/form-data">
         <input type="hidden" class="form-control" id="property_code" name="property_code" value="<?php echo $header_user[0]['property_code']; ?>">
         <input type="hidden" class="form-control" id="ref_code" name="ref_code" value="<?php echo @$content[0]['ref_code'];?>">
         
@@ -248,7 +248,7 @@
     {
         $.ajax({
             method: "GET",
-            url: '<?php echo base_url();?>index.php/wizcationpartner/set_cover',
+            url: '<?php echo base_url();?>index.php/backend/set_cover',
             data: { 'id' : id, 'ref_code': ref_code},
         }) 
         .done(function() {
@@ -261,7 +261,7 @@
    {
       $.ajax({
             method: "GET",
-            url: '<?php echo base_url();?>index.php/wizcationpartner/manual_delete_photo',
+            url: '<?php echo base_url();?>index.php/backend/manual_delete_photo',
             data: { 'id' : id, 'uuid': uuid,'image' : image},
         }) 
         .done(function() {

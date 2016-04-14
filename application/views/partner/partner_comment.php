@@ -64,7 +64,7 @@ function content_remove(id)
     {
         $.ajax({
             method: "GET",
-            url: '<?php echo base_url();?>index.php/wizcationpartner/submit_removed_content',
+            url: '<?php echo base_url();?>index.php/backend/submit_removed_content',
             data: { 'id' : id},
         }) 
         .done(function() {

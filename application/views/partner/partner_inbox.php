@@ -9,7 +9,7 @@
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-        <form method="post" action="<?php echo site_url('wizcationpartner/submit_new_msg');?>">
+        <form method="post" action="<?php echo site_url('backend/submit_new_msg');?>">
            <div class="form-group">
             <label>Subject </label> <input type="text" class="form-control" name="msg_subject"/><br/>
               <textarea name="msg_detail" data-provide="markdown" rows="10"></textarea><br/>
@@ -85,7 +85,7 @@
     {
          $.ajax({
             method: "GET",
-            url: '<?php echo base_url();?>index.php/wizcationpartner/set_read_msg',
+            url: '<?php echo base_url();?>index.php/backend/set_read_msg',
             data: { 'inbox_id' : id},
         }) 
         .done(function() {
@@ -98,7 +98,7 @@
     {
        $.ajax({
             method: "GET",
-            url: '<?php echo base_url();?>index.php/wizcationpartner/set_delete_msg',
+            url: '<?php echo base_url();?>index.php/backend/set_delete_msg',
             data: { 'inbox_id' : id},
         }) 
         .done(function() {

@@ -11,7 +11,7 @@
                      </div>
                  </div>
             </div>
-    <form method="post" action="<?php echo site_url('wizcationpartner/submit_information');?>" role="form" id="infoProfile"  enctype="multipart/form-data">
+    <form method="post" action="<?php echo site_url('backend/submit_information');?>" role="form" id="infoProfile"  enctype="multipart/form-data">
    
    <div class="row">
             <label>Add a photo</label> <span>Guests love photos that highlight the features of your space.</span>
