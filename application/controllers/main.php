@@ -82,7 +82,7 @@ class Main extends CI_Controller {
                 else if( in_array($auth[0]['user_group'], array('2','3','4')))
                 {
                     $this->session->set_userdata('partner', $auth);
-                    return redirect('wizcationpartner/main_content');
+                    return redirect('backend/main_content');
                 }
 
         		if($auth[0]['user_verify'] == 1)
