@@ -47,13 +47,10 @@
 
 $active_group = 'default';
 $active_record = TRUE;
-
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'mzchewii_admin';
-
-$db['default']['password'] = '8f2SzsCwiM';
-
-$db['default']['database'] = 'mzchewii_admin';
+$db['default']['username'] = 'clickpos_hhinew';
+$db['default']['password'] = 'wghNbQwTdJ';
+$db['default']['database'] = 'clickpos_hhinew';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

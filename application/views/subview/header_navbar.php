@@ -49,38 +49,11 @@
                     <span class="icon-bar"></span>
                 </button>
             <?php if(!empty($header_user[0])) { ?>                
-            <a href="#" class="navbar-brand"><img src="<?php echo base_url(); ?>webroot/img/logo.png"></a>
+            <a href="#" class="navbar-brand"><img src="<?php echo base_url(); ?>webroot/img/logo.png" style="width:100px;height: 100px;margin-left:-50px;"></a>
           <?php } ?>
             </div>
             <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-          <?php if($header_user[0]['user_group']==1) { ?>
-                <ul class="nav navbar-nav navbar-right">
-                   <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <?php echo $header_user[0]['login_name']; ?> <span class="caret"></span></a>
-                                <ul role="menu" class="dropdown-menu">
-                                    <li><a href="<?php echo site_url('user/profile'); ?>">Profile</a></li>
-                                    <li><a href="<?php echo site_url('miscellaneous/inbox'); ?>">Inbox</a></li>
-                                    <li><a href="<?php echo site_url('guest/transaction'); ?>">My guests</a></li>
-                                    <li><a href="<?php echo site_url('miscellaneous/setting'); ?>">Account setting</a></li>
-                                    <li><a href="<?php echo site_url('main/logout'); ?>">Logout</a></li>
-                                </ul>
-                    </li>
-                </ul>
-               <?php } else if(in_array($header_user[0]['user_group'], array('2','3','4'))) { ?>
-       
-            <ul class="nav navbar-nav navbar-right">
-                   <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <?php echo $header_user[0]['login_name']; ?> <span class="caret"></span></a>
-                            <ul role="menu" class="dropdown-menu">
-                                <li><a href="<?php echo site_url('wizcationpartner/main_inbox'); ?>"><i class="fa fa-sitemap fa-fw"></i>Inbox</a></li>
-                                <li><a href="<?php echo site_url('wizcationpartner/main_setting'); ?>"><i class="fa fa-money fa-fw"></i> Account Setting</a></li>
-                                <li><a href="<?php echo site_url('main/logout'); ?>">Logout</a></li>
-                            </ul>
-                    </li>
-                </ul>
-            <?php } else { ?>
+
             <ul class="nav navbar-nav navbar-right">
                    <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
@@ -90,7 +63,7 @@
                         </ul>
                     </li>
                 </ul>
-            <?php } ?>
+        
             </div>
         </div>
     </nav>

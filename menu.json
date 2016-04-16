@@ -1,0 +1,53 @@
+{
+            "data":
+            [
+                {
+                    "id":"home",
+                    "name":"HOME",
+                    "src":"data/json/slideshow.json",
+                    "bg":"data/images/bg/bg.jpg",
+                    "module":"slideshow"
+                },
+                {
+                    "id": "gallery",
+                    "name": "PHOTOS",
+                    "childmenus":
+                    [
+                        ""
+                    ]
+                },
+                {
+                 
+                    "id":"videos",
+                    "name":"VIDEOS",
+                    "src":"data/json/portfolio/portfolio-1-row.json",
+                    "bg":"https://scontent.fbkk5-3.fna.fbcdn.net/hphotos-xpt1/v/t1.0-9/10522765_552816308163976_6344434715902621027_n.jpg?oh=77a8a0d362d114358280d7a407b31d9e&oe=57B3E86F",
+                    "bgCoverAlpha":0.3,
+                    "module":"portfolio"
+                 },
+                {
+                  "id":"download",
+                  "name":"DOWNLOAD",
+                  "src":"data/json/team.json",
+                  "bg":"https://scontent.fbkk5-3.fna.fbcdn.net/hphotos-xfa1/v/l/t1.0-9/11212756_676225889156350_8379377158316746617_n.jpg?oh=d740d150d38ef124d4518ea710cbfa0b&oe=57BDA4E6",
+                  "bgCoverAlpha":0.8,
+                  "module":"team"
+                },
+                 {
+                    "id":"about",
+                    "name":"ABOUT-US",
+                    "src":"data/json/about.json",
+                    "bg":"https://scontent.fbkk5-3.fna.fbcdn.net/hphotos-xpf1/v/t1.0-9/996733_379394918839450_1798553459_n.jpg?oh=b33573863ad19d39a4af17ce2f9191af&oe=577D33D3",
+                    "bgCoverAlpha":0.3,
+                    "module":"about"
+                },
+                 {
+                    "id":"contact",
+                    "name":"CONTACT",
+                    "src":"data/json/contact.json",
+                    "bg":"https://scontent.fbkk5-3.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/1001640_379395905506018_1204204467_n.jpg?oh=e09ff2ce1e2e548d09c1697f8aaf9b57&oe=5779AE2E",
+                    "bgCoverAlpha":0.3,
+                    "module":"contact"
+                }
+            ]
+        }

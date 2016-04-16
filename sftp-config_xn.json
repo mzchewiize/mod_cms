@@ -14,11 +14,12 @@
     "confirm_sync": true,
     "confirm_overwrite_newer": false,
 
-    "host": "www.hhithailand.com",
-    "user": "clickpos",
-    "password": "kankan1991",
-    "port": "2002",
-    "remote_path": "/domains/hhithailand.com/public_html/newsite/admin",
+    "host": "xn--72cf5dh6c0bbc8q.com",
+    "user": "connect@xn--72cf5dh6c0bbc8q.com",
+    "password": "mzchewiize6831",
+    "port": "21",
+
+    "remote_path": "/public_html/cms",
     "ignore_regexes": [
         "\\.sublime-(project|workspace)", "sftp-config(-alt\\d?)?\\.json",
         "sftp-settings\\.json", "/venv/", "\\.svn/", "\\.hg/", "\\.git/",
@@ -40,5 +41,5 @@
     //"remote_time_offset_in_hours": 0,
     //"remote_encoding": "utf-8",
     //"remote_locale": "C",
-    "allow_config_upload": true,
+    //"allow_config_upload": false,
 }
